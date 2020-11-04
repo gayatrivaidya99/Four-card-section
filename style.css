@@ -1,0 +1,137 @@
+
+body {
+   
+    background-color: #fafafa;
+    color: #4e5162;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    display: block;
+}   
+
+
+h1 {
+    font-size: 36px;
+    line-height: 0.3;
+    margin-top: 0;
+    
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: 200;
+    font-size: 36px;
+}
+
+.card_info {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    ;
+    justify-content: center;
+}    
+
+
+.card {
+    
+    border-radius: 8px;
+    background: #ffff;
+    width: 340px;
+    height: 220px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 25px;
+    box-shadow: 0 6px 4px 4px rgba(0, 0, 0, 0.1);
+    
+   
+    
+    
+}
+
+.about {
+    font-weight: 200;
+    line-height: 1.5;
+    letter-spacing: 0.2;
+}
+
+.vertical {
+    display: inline-block;
+}
+
+.card_name {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.card_img {
+    margin-left: 260px;
+    margin-top: 60px;
+    
+}
+
+.cyan, .blue {
+    margin-top: 170px;
+}
+
+.cyan {
+    border-top: 4px solid #40d5d3;
+}
+
+.red {
+    border-top: 4px solid #ec5356;
+}
+
+.orange {
+    border-top: 4px solid #fbad4b;
+}
+
+.blue {
+    border-top: 4px solid #519ff2;
+}
+
+@media screen and (max-width: 900px)  {h1{ font-size: 30px;
+    line-height: 0.7;
+    margin-top: 0;
+}
+.container {
+    width: 100%;
+    /* max-width: 400px; */
+    /* margin: 0 auto; */
+    margin-top: -200px;
+    display:inline-block;
+    justify-content: center;
+}    
+.card {
+    
+    align-items: center;
+    border-radius: 8px;
+    background: #ffff;
+    width: 400px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right:-10px;
+    margin-bottom: 30px;
+    padding: 25px;
+    /* padding-top: 100px; */
+    box-shadow: 0 6px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blue{
+    margin-top: 0px;
+}
+
+/* .card_img {
+    margin-left: 260px;
+    margin-top: 60px;
+
+}} */
+}
+    
